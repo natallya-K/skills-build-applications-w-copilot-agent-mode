@@ -1,0 +1,1 @@
+print("Debug: commands module is loaded")
