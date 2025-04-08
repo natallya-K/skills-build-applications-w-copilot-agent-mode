@@ -60,6 +60,14 @@ DATABASES = {
     }
 }
 
+if 'default' not in DATABASES:
+    DATABASES['default'] = {
+        'ENGINE': 'djongo',
+        'NAME': 'octofit_db',
+        'HOST': 'localhost',
+        'PORT': 27017,
+    }
+
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
