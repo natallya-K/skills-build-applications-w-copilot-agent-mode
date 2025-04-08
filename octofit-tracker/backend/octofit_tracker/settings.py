@@ -6,7 +6,7 @@ SECRET_KEY = 'your-secret-key'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['fantastic-couscous-vr95r7xjg73xxr7-8000.app.github.dev', 'localhost']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
